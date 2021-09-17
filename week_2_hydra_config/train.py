@@ -47,6 +47,7 @@ def main(cfg):
     logger.info(OmegaConf.to_yaml(cfg, resolve=True))
     logger.info(f"Using the model: {cfg.model.name}")
     logger.info(f"Using the tokenizer: {cfg.model.tokenizer}")
+
     cola_data = DataModule(
         cfg.model.tokenizer, cfg.processing.batch_size, cfg.processing.max_length
     )
@@ -59,7 +60,7 @@ def main(cfg):
         mode="min",
     )
 
-    wandb_logger = WandbLogger(project="MLOps Basics", entity="raviraja")
+    wandb_logger = WandbLogger(project="MLOps Basics", entity="delak")
     trainer = pl.Trainer(
         max_epochs=cfg.training.max_epochs,
         logger=wandb_logger,

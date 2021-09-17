@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.4.72-microsoft-standard-WSL2-x86_64-with-glibc2.17",
+    "python": "3.8.11",
+    "heartbeatAt": "2021-09-17T12:03:21.526402",
+    "startedAt": "2021-09-17T12:03:20.395309",
+    "docker": null,
+    "cpu_count": 16,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "/home/delak/ml_Ops/MLOps-Basics/week_3_dvc/train.py",
+    "codePath": "week_3_dvc/train.py",
+    "git": {
+        "remote": "https://github.com/graviraja/MLOps-Basics.git",
+        "commit": "fa480beae705a9f9609365c032196dfdbb49ef55"
+    },
+    "email": "d.delacal@alumnos.upm.es",
+    "root": "/home/delak/ml_Ops/MLOps-Basics",
+    "host": "delak-pc",
+    "username": "delak",
+    "executable": "/home/delak/anaconda3/envs/project-setup/bin/python"
+}
